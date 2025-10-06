@@ -27,7 +27,7 @@ echo 'export PATH=$HOME/oss-cad-suite/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-2. Verificá herramientas:
+1. Verificá herramientas:
 
 ```bash
 yosys -V
@@ -42,15 +42,15 @@ openFPGALoader --version
 
 - [FTDI VCP Drivers](https://ftdichip.com/drivers/vcp-drivers/)
 
-2. En PowerShell o CMD (Administrador), listá y vinculá el dispositivo FTDI:
+1. En PowerShell o CMD (Administrador), listá y vinculá el dispositivo FTDI:
 
 ```powershell
-usbipd list                         # ver BUSID del FTDI (0403:6010)
-usbipd bind --b <BUSID>           	# primera vez, asocia el dispositivo a usbipd
-usbipd attach -a -b <BUSID> -w      # adjunta al WSL actual y reconecta automáticamente en casso de desconexión del USB
+usbipd list                        # ver BUSID del FTDI (0403:6010)
+usbipd bind --b <BUSID>            # primera vez, asocia el dispositivo a usbipd
+usbipd attach -a -b <BUSID> -w     # adjunta al WSL actual y reconecta automáticamente en casso de desconexión del USB
 ```
 
-3. En Ubuntu/WSL2 verificá que el dispositivo esté visible con alguno de los comandos siguientes:
+1. En Ubuntu/WSL2 verificá que el dispositivo esté visible con alguno de los comandos siguientes:
 
 ```bash
 lsusb                  
@@ -153,4 +153,3 @@ Make es incremental: sólo recompila lo necesario.
 ## Licencia
 
 Este proyecto está bajo licencia MIT. Ver el archivo [LICENSE](./LICENSE).
-
