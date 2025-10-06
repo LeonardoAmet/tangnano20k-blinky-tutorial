@@ -147,4 +147,10 @@ Make es incremental: sólo recompila lo necesario.
 - Quiero ver más detalle del flujo:
   - Ejecutá etapas por separado: `make synth`, `make pnr`, `make pack`.
   - Agregá `-v`/`-d` según la herramienta (ver help de cada una).
-  
+
+---
+
+## Licencia
+
+Este proyecto está bajo licencia MIT. Ver el archivo [LICENSE](./LICENSE).
+

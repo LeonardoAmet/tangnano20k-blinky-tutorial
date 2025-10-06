@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 # ==========================================================
 
 # Makefile - Tang Nano 20K Blink (OSS CAD Suite + Apicula)

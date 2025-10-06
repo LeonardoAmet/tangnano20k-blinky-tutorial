@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 module blinky(input clk, output led);
   reg [24:0] cnt = 0;
   always @(posedge clk) cnt <= cnt + 1;
