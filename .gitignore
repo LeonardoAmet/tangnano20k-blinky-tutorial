@@ -1,0 +1,20 @@
+# carpetas de build
+/build/
+/bit/
+
+
+# intermedios habituales
+*.json
+*.vcd
+*.log
+*.dmp
+*.rpt
+*.asc
+*.bin
+*.cfg
+*.cache
+
+
+# sistemas
+.DS_Store
+Thumbs.db
